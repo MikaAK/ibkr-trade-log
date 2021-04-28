@@ -22,7 +22,8 @@ defmodule TradeImporter.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:nimble_csv, "~> 1.0"}
+      {:nimble_csv, "~> 1.0"},
+      {:decimal, "~> 2.0"}
     ]
   end
 end
