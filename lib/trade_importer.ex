@@ -11,5 +11,6 @@ defmodule TradeImporter do
       |> TradeImporter.ReportParser.group_by_trade
       |> TradeImporter.ReportOrganizer.organize_trades_into_completed
       |> TradeImporter.ReportFormatter.format_for_eyes
+      |> Enum.sort_by(&(&1.exit_times), :asc)
   end
 end
