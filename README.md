@@ -1,6 +1,15 @@
 # TradeImporter
+Parsing daily reports from Interactive Brokers to start building data
 
-**TODO: Add description**
+#### Goals
+- [x] Be able to parse a csv and sort it by trades
+- [x] Organize trades into completed and opened
+- [ ] Add statistics around Trades Opened, Daily P&L and Win Rate
+- [ ] Identify and group combo trades (spreads)
+- [ ] Add Agent & Task to monitor and aggregate the daily usage / fill blanks
+- [ ] Calculate days of week where I have the worst trades
+- [ ] Calculate win percentage per ticker
+- [ ] Calculate win percentage per bearish/bullish
 
 ## Installation
 
